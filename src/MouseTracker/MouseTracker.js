@@ -18,7 +18,10 @@ class MouseTracker extends React.Component {
 
   render() {
     return (
-      <div style={{ height: "50vh" }} onMouseMove={this.handleMouseMove}>
+      <div
+        style={{ height: "300px", border: "1px solid hotpink" }}
+        onMouseMove={this.handleMouseMove}
+      >
         {/*
           Instead of providing a static representation of what <Mouse> renders,
           use the `render` prop to dynamically determine what to render.
