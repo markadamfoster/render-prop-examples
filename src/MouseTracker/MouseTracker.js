@@ -7,7 +7,7 @@ class MouseTracker extends React.Component {
     render: PropTypes.func.isRequired
   };
 
-  state = { x: 0, y: 0 };
+  state = { x: -1000, y: -1000 };
 
   handleMouseMove = event => {
     this.setState({
